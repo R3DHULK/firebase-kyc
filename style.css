@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4fb;
+  font-family: Arial, sans-serif; /* Add a default font-family */
+}
+
+.alert {
+  display: none;
+}
+
+.btn {
+  padding: 1em;
+}
+
+.btn-primary {
+  background: linear-gradient(
+    90deg,
+    rgb(222, 247, 5) 0%,
+    rgb(221, 154, 8) 35%,
+    rgb(244, 248, 7) 100%
+  );
+  border: none;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* Additional styles for form fields */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+  background-color: #d6ec08;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #c7dd03;
+}
+
+/* Additional styles for specific form fields */
+#maritalStatus {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#dob {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Optional: Add more styling as needed for specific form elements */
